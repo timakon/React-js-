@@ -142,11 +142,6 @@
             <path>
               <item name="React" type="b2602c69:ProjectViewProjectNode" />
               <item name="React" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="node_modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="React" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -220,12 +215,12 @@
       <workItem from="1525529763444" duration="13776000" />
       <workItem from="1525612860811" duration="1666000" />
       <workItem from="1525699950789" duration="14340000" />
-      <workItem from="1525754984720" duration="2456000" />
+      <workItem from="1525754984720" duration="3090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38100000" />
+    <option name="totallyTimeSpent" value="38734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="938" height="1047" extended-state="0" />
@@ -239,7 +234,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30186608" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6136114" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
