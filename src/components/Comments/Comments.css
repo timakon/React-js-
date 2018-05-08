@@ -1,0 +1,10 @@
+.Comments{
+    border: 1px solid black;
+    margin: 0 auto;
+    background:#ffb58c;
+    color: rgba(17,50,18,0.26)f;
+    width: 400px;
+}
+.User{
+    margin: 0 0 0 350px;
+}
