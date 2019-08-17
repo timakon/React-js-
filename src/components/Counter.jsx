@@ -1,13 +1,14 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-export default class Counter extends Component {
-    render() {
-        const {number, onPlusClick, onMinusClick} = this.props
-        return (
+export default class Conter extends PureComponent{
+    render(){
+        const {number, plus, minus} = this.props;
+
+        return(
             <div>
-                <button onClick={onPlusClick}>+</button>
+                <button onClick={plus}>+</button>
                 {number}
-                <button onClick={onMinusClick}>-</button>
+                <button onClick={minus}>-</button>
             </div>
         )
     }

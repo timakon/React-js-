@@ -1,31 +1,33 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 
-export default class Clock extends Component {
-    constructor(props) {
+export default class Clock extends PureComponent{
+    constructor(props){
         super(props);
 
         this.state = {
-            date: new Date
+            date: new Date()
         }
     }
 
-    componentDidMount() {
+    componentDidMount(){
         this.intervalId = setInterval(() => {
             this.setState({
                 date: new Date()
-            });
-        }, 100)
+            })
+        },100)
     }
 
-    componentWillUnmount() {
+    componentWillUnmount(){
         clearInterval(this.intervalId);
     }
 
-
     render() {
-        const {date} = this.state;
+
+        const { date } = this.state;
+
         return (
             <div>
+                <h1>Date now</h1>
                 <h2>{date.toLocaleTimeString()}</h2>
             </div>
         )
