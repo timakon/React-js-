@@ -1,0 +1,16 @@
+.div{
+    border: 2px dotted black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+.h3{
+    margin: 10px;
+    width: 40%;
+}
+.p{
+    margin: 10px;
+    margin-bottom: 40px;
+    width: 80%;
+}

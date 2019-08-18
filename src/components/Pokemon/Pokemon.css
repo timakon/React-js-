@@ -1,0 +1,20 @@
+.pokemons{
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+.pokemon{
+    flex:1 1 200px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+.pokemon-img{
+    width: 200px;
+    height: 200px;
+}

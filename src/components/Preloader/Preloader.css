@@ -1,0 +1,31 @@
+.pr{
+    width: 100%;
+}
+.preloader{
+    --duration:1s;
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition:var(--duration);
+}
+.logo-preloader{
+    width: 200px;
+    height: 200px;
+    animation:rotat 4s infinite cubic-bezier(.31, .15, .15, .31);
+}
+@keyframes rotat{
+    0%{
+        transform: perspective(700px) rotateY(0deg) rotateX(0deg);
+    }
+    50%{
+        color:#242424;
+        transform: perspective(800px) rotateY(-180deg) rotateX(90deg);
+    }
+    100%{
+        transform: perspective(700px) rotateY(-360deg) rotateX(0deg);
+    }
+}
